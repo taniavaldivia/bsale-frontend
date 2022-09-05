@@ -1,0 +1,56 @@
+body{
+  background-color: #f3f7fa
+}
+
+.container {
+  margin-top: 70px;
+}
+
+.card-list {
+  display: flex;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.card {
+  height: 400px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.search {
+  margin-top: 12px;
+}
+
+.nav-link {
+  padding-left: 10px;
+}
+
+.nav-link.active {
+  background-color: #0d6efd;
+  color: white!important;
+}
+
+.no-products{
+  text-align: center;
+  color: #41464b;
+  margin-top: 60px;
+}
+
+.see-all {
+  cursor: pointer
+}
+
+.img-box {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.see-product {
+  margin-top: 20px;
+  width: 100%;
+}
